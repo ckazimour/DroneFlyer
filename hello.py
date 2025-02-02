@@ -63,7 +63,7 @@ pygame.init()
 # Screen dimensions
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("3D Drone Simulation (Rectangular Prism)")
+pygame.display.set_caption("DroneFlyer — 3D Drone Simulation")
 
 # Clock to control frame rate
 clock = pygame.time.Clock()
