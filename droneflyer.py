@@ -162,7 +162,6 @@ def draw_coin(screen, pos):
     pos1 = np.copy(pos); pos1[0] = -300
     pos2 = np.copy(pos); pos2[0] = 300
     pos3 = np.copy(pos); pos3[2] = 600
-    print(pos, pos1, pos2, pos3)
     pygame.draw.circle(screen, YELLOW, to_screenspace(pos1), 3)
     pygame.draw.circle(screen, YELLOW, to_screenspace(pos2), 3)
     pygame.draw.circle(screen, YELLOW, to_screenspace(pos3), 3)
