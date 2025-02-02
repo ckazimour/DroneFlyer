@@ -5,6 +5,7 @@ import random
 from math import pi
 import matplotlib.pyplot as plt
 from itertools import permutations
+import time
 
 def mypause(interval):
     manager = plt._pylab_helpers.Gcf.get_active()
